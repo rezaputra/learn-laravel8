@@ -10,4 +10,10 @@ class PagesController extends Controller
     {
         return view('index');
     }
+
+    public function about()
+    {
+        $names = ['melisa', 'alice', 'evelyn'];
+        return view('about', compact('names'));
+    }
 }

@@ -19,6 +19,10 @@
         <div class="row">
             <div class="col">
                 <p>home pages</p>
+                @for ($i = 1; $i <= 10; $i++)
+                  <p> this is loop {{ $i }}  </p>
+                
+                @endfor
             </div>
 
         </div>
